@@ -1,0 +1,90 @@
+
+/* section {
+  margin:auto;
+} */
+
+.col-6 {
+  text-align: center;
+
+}
+
+
+.box {
+  background-color: #3D3F45;
+  color: #FFF;
+  width: 35%;
+  border: 2px solid red;
+  display: inline-block;
+  margin-top: 1rem;
+
+  margin-left: 10rem;
+  margin-right: 20px;
+
+}
+
+
+
+
+
+header {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+.nb {
+  background-color:	#3D3F45;
+  font-weight: bold;
+  display: block;
+  border: 3px solid #FFF;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-left: 37%;
+  min-width: 50px;
+
+}
+
+.nb {
+  text-decoration: none;
+  height: 20px;
+  display: inline-block;
+  padding: .3rem 1rem  ;
+  width: 20%;
+  margin-top: 1rem;
+
+}
+
+
+
+
+.nb:link {
+  color: green;
+  border-color: green;
+}
+
+
+/* visited link */
+.nb:visited {
+  color: #FFF;
+  font-weight:bold;
+
+}
+
+/* mouse over link */
+.nb:hover {
+
+  color: red;
+  font-weight:bold;
+  border: 3px solid red;
+
+
+}
+
+/* selected link */
+.nb:active {
+  color: yellow;
+  border: 3px solid yellow;
+  box-shadow: 3px 2px 4px blue;
+
+}
